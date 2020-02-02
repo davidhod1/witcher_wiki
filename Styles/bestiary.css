@@ -1,0 +1,204 @@
+@import "../Styles/navbar.css";
+
+html, body {
+
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#imgBackground{
+    
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    min-width: 1280px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+
+}
+
+main{
+
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 90%;
+    height: 80%;
+
+}
+
+* {box-sizing: border-box}
+
+
+#tab {
+  
+  list-style-type: none;
+  background-color: rgb(0, 0, 0, 0.5);
+  float: left;
+  width: 20%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  margin-top: 2%;
+  border: solid rgb(96, 81, 51);
+  border-style: double;
+  border-width: 8px;
+ 
+  
+}
+
+ input{
+
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width:100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: large;
+  transition: 0.3s;
+  
+}
+
+::placeholder {
+
+  color: white;
+
+}
+
+
+#tab li {
+
+  display: block;
+  background-color: inherit;
+  color: white;
+  font-size: larger;
+  padding: 22px 16px;
+  width: 100%;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+
+
+#firstTab{
+
+  display: block;
+  background-color: inherit;
+  color: white;
+  font-size: larger;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+#firstTab a{
+
+  text-decoration: none;
+  color: white;
+
+}
+
+#firstTab:hover{
+  background-color: rgb(96, 81, 51);
+  
+}
+
+
+#tab li:hover {
+
+  background-color: rgb(96, 81, 51);
+  
+}
+
+
+#tab li.active {
+
+  background-color: rgb(96, 81, 51);
+  
+}
+
+#tab li a{
+  
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+
+
+.tabcontent {
+
+  float: right;
+  padding: 0 16px;
+  color: white;
+  width: 80%;
+  height: 100%;
+  border-left: none;
+  
+}
+
+
+section{
+
+    width: 40%;
+    height: 70%;
+    float: right;
+    margin-right: 2%;
+    overflow-y: auto;
+    
+}
+
+#bestiarySection{
+
+    width: 50%;
+    height: 70%;
+    float: left;
+    font-size: larger;
+    
+}
+
+.monsterImg{
+
+    width: 50%;
+    height: 500px;
+
+}
+
+  hr.style-eight {
+
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double rgb(96, 81, 51);
+    color: rgb(96, 81, 51);
+    text-align: center;
+    border-width: 0.3em;
+    width: 80%;
+            
+}
+hr.style-eight:after {
+
+    content: "Ꝏ";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: black;
+    
+}

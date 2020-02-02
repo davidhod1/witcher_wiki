@@ -1,0 +1,212 @@
+@import "../Styles/navbar.css";
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+}
+
+
+#imgBackground{
+
+    background-image: url("../Images/characters.png");
+    height: 100%;
+    width: 100%;
+    min-width: 1280px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+
+}
+
+
+
+main{
+
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 90%;
+  height: 90%;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 20px;
+  border: solid rgb(96, 81, 51);
+  border-style: double;
+  border-width: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+* {box-sizing: border-box}
+
+
+#tab {
+  
+  margin-top: 10px;
+  list-style-type: none;
+  float: left;
+  width: 20%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+ 
+  
+}
+
+ input{
+
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width:100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: large;
+  transition: 0.3s;
+  
+}
+
+::placeholder {
+
+  color: white;
+
+}
+
+
+#tab li {
+
+  display: block;
+  background-color: inherit;
+  color: white;
+  font-size: larger;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+
+
+#firstTab{
+
+  display: block;
+  background-color: inherit;
+  color: white;
+  font-size: larger;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+#firstTab a{
+
+  text-decoration: none;
+  color: white;
+
+}
+
+#firstTab:hover{
+
+  background-color: rgb(96, 81, 51);
+  border-top-left-radius: 10px;
+
+}
+
+
+#tab li:hover {
+
+  background-color: rgb(96, 81, 51);
+
+}
+
+
+#tab li.active {
+
+  background-color: rgb(96, 81, 51);
+
+}
+
+#tab li a{
+  
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+
+
+.tabcontent {
+  
+  float: right;
+  padding: 0 16px;
+  color: white;
+  width: 80%;
+  height: 100%;
+  border-left: none;
+  overflow-y:auto ;
+  
+
+}
+
+table{
+
+  border-spacing:0; 
+  border-collapse: collapse;
+  border: solid rgb(0, 0, 0);
+
+}
+td {
+
+  padding: 5px;
+  background-color: rgb(0, 0, 0, 0.3);
+  
+}
+th{
+
+  padding: 5px;
+  background-color: rgb(0, 0, 0, 0.6);
+ 
+}
+
+.titleRow{
+
+  background-color: rgb(96, 81, 51) ;
+  
+}
+
+
+
+table{
+
+  float: right;
+  width: 35%;
+  margin-bottom: 1%;
+
+}
+
+span{display: block;}
+
+section{
+
+  width: 60%;
+  float: left;
+ 
+}
+
+hr{
+  margin-top: -10px;
+}

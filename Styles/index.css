@@ -1,0 +1,42 @@
+@import "../Styles/navbar.css";
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#imgBackground{
+    background-image: url("../Images/witcher_background.png");
+    height: 100%;
+    width: 100%;
+    min-width: 1280px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+
+main{
+    margin-top: 10%;
+    margin-left: 6%;
+    padding: 10px 40px 40px 40px;
+    width: 30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    color:white;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 20px;
+    
+
+           
+}
+
+#wolfLogo{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+}

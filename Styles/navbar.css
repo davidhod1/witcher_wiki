@@ -1,11 +1,10 @@
 @font-face {
-  font-family: 'witcherFont'; /*a name to be used later*/
-  src: url('../Fonts/Thewitcher-jnOj.ttf'); /*URL to font*/
+  font-family: 'witcherFont'; 
+  src: url('../Fonts/Thewitcher-jnOj.ttf'); 
 }
 
 
 
-/* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: rgb(51, 51, 51, 0.75);
@@ -16,7 +15,7 @@
  
 }
   
-  /* Links inside the navbar */
+
 .navbar a {
   float: left;
   font-size: 16px;
@@ -29,7 +28,6 @@
   
 }
   
-  /* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -37,7 +35,7 @@
     
 }
   
-  /* Dropdown button */
+
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -50,12 +48,12 @@
     
 }
   
-  /* Add a red background color to navbar links on hover */
+
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(96, 81, 51);
 }
   
-  /* Dropdown content (hidden by default) */
+
 .dropdownContent {
   display: none;
   position: fixed;
@@ -65,7 +63,7 @@
   z-index: 1;
 }
   
-  /* Links inside the dropdown */
+
 .dropdownContent a {
   float: none;
   color: white;
@@ -75,12 +73,12 @@
   text-align: left;
 }
   
-  /* Add a grey background color to dropdown links on hover */
+
 .dropdownContent a:hover {
   background-color: rgb(96, 81, 51);
 }
   
-  /* Show the dropdown menu on hover */
+ 
 .dropdown:hover .dropdownContent {
   display: block;
 }
@@ -90,19 +88,17 @@
   width: 10px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
   background: rgb(96, 81, 51, 0.3); 
   
 }
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-thumb {
   background: rgb(96, 81, 51); 
   
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
